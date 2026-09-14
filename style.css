@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w-custom {
+    width: 35% !important;
+}
+
+.h-custom {
+    height: 10% !important;
+}
+
+/* w-btn-custom {
+    width: 60% !important;
+    height: 10% !important;
+} */
+
+.calc-background {
+    background-color: black;
+}
+
+.primary-color {
+    background-color: rgb(30, 30, 30) !important;
+}
+
+.secondary-color {
+    background-color: rgb(255, 136, 1) !important;
+}
+
+.text-color {
+    color: rgb(255, 136, 1) !important;
+}
+
+.vh-custom {
+    height: 80% !important;
+}
