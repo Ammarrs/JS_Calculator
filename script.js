@@ -1,3 +1,5 @@
+// elements
+
 var calcC = document.getElementById("calc-c");
 var calcDel = document.getElementById("calc-del");
 var calcPerc = document.getElementById("calc-perc");
@@ -9,6 +11,15 @@ var calcDec = document.getElementById("calc-dec");
 var calcEqual = document.getElementById("calc-equal");
 var numInput = document.getElementById("num-input");
 var buttons = document.querySelectorAll(".btn");
+var numbersBtns = document.querySelectorAll(".number-btn");
+var operatorsBtns = document.querySelectorAll(".operator-btn");
+
+// variables
+
+var firstNum = "";
+var secondNum = "";
+var sign = "";
+var result = "";
 
 buttons.forEach(button => {
     button.addEventListener("click", () => {
@@ -16,10 +27,24 @@ buttons.forEach(button => {
     })
 });
 
+numbersBtns.forEach(button => {
+    button.addEventListener("click", () => {
+        if(sign === "") {
+            firstNum += button.textContent.trim();
+        } else {
+            secondNum += button.textContent.trim();
+        }
+    })
+});
+
+calcPlus.addEventListener("click", () => { operator = "+"; }); calcSub.addEventListener("click", () => { operator = "-"; }); calcMult.addEventListener("click", () => { operator = "*"; }); calcDiv.addEventListener("click", () => { operator = "/"; });
+
 function clearInput() {
     numInput.value = "";
 }
 
+
+
 function calculateValue(equation, sign) {
-    
+
 }
