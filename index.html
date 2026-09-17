@@ -11,43 +11,44 @@
 <body>
 
     <div class="container d-flex justify-content-center align-items-center vh-100">
-        <div class="calc-body w-custom vh-custom bg-black rounded-3 p-3 d-flex flex-column">
+        <div class="calc-body w-25 vh-custom bg-black rounded-3 p-3 d-flex flex-column">
             <div class="num-screen w-100 h-custom mt-3 mb-3 rounded-3">
-                <input id="num-input" class="num-screen-input w-100 h-100" type="text">
+                <input id="num-input" class="num-screen-input w-100 h-100 fs-2 fw-bold" type="text">
             </div>
-            <div class="num-pad row gap-1 justify-content-center">
-                <button id="calc-c" class="calc-button btn w-btn-custom rounded- bg-dark text-color rounded-3 col-2 m-1">C</button>
-                <button id="calc-del" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">
+            <div class="num-pad row gap-1 justify-content-center h-75">
+                <button id="calc-c" class="calc-button btn w-btn-custom rounded- bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">C</button>
+                <button id="calc-del" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">
                     <!-- // delete icon "deleting number by number" -->
                 </button>
-                <button id="calc-perc" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">
+                <button id="calc-perc" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">
                     <!-- // percentage icon -->
                 </button>
-                <button id="calc-div" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">
+                <button id="calc-div" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">
                     <!-- // division icon -->
                 </button>
-                <button id="calc-7" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">7</button>
-                <button id="calc-8" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">8</button>
-                <button id="calc-9" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">9</button>
-                <button id="calc-mult" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">
+                <button id="calc-7" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">7</button>
+                <button id="calc-8" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">8</button>
+                <button id="calc-9" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">9</button>
+                <button id="calc-mult" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">
                     <!-- multiplication icon -->
                 </button>
-                <button id="calc-4" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">4</button>
-                <button id="calc-5" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">5</button>
-                <button id="calc-6" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">6</button>
-                <button id="calc-sub" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">
+                <button id="calc-4" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">4</button>
+                <button id="calc-5" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">5</button>
+                <button id="calc-6" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">6</button>
+                <button id="calc-sub" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">
                     <!-- subtraction icon -->
                 </button>
-                <button id="calc-1" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">1</button>
-                <button id="calc-2" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">2</button>
-                <button id="calc-3" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">3</button>
-                <button id="calc-plus" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">
+                <button id="calc-1" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">1</button>
+                <button id="calc-2" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">2</button>
+                <button id="calc-3" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">3</button>
+                <button id="calc-plus" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">
                     <!-- plus icon -->
                     +
                 </button>
-                <button id="calc-0" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">0</button>
-                <button id="calc-dec" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-2 m-1">.</button>
-                <button id="calc-equal" class="calc-button btn w-btn-custom  bg-dark rounded-3 col-4 m-1 secondary-color">=</button>
+                <button id="calc-0" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">0</button>
+                <button id="calc-dec" class="calc-button btn w-btn-custom  bg-dark text-color rounded-3 col-3 col-md-3 col-lg-3">.</button>
+                <button id="calc-erase" class="calc-button btn w-btn-custom  bg-dark rounded-3 col-3 col-md-3 col-lg-3 secondary-color">del</button>
+                <button id="calc-equal" class="calc-button btn w-btn-custom  bg-dark rounded-3 col-3 col-md-3 col-lg-3 secondary-color">=</button>
             </div>
         </div>
     </div>

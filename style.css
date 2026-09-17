@@ -5,14 +5,14 @@
 }
 
 .w-custom {
-    width: 35% !important;
+    width: 25% !important;
 }
 
 .h-custom {
-    height: 10% !important;
+    height: 15% !important;
 }
 
-/* w-btn-custom {
+/* .w-btn-custom {
     width: 60% !important;
     height: 10% !important;
 } */
@@ -34,5 +34,13 @@
 }
 
 .vh-custom {
-    height: 80% !important;
+    height: 50% !important;
+}
+
+.w-btn-custom {
+    width: 70px !important;
+}
+
+.num-screen-input:focus {
+    outline: 0;
 }
